@@ -1,19 +1,12 @@
 import { createRoot } from "react-dom/client";
 const root = createRoot(document.getElementById("root"));
 
-/**
- * Challenge:
- * 
- * - Add a `nav` > `ul` > `li` (x3). The 3 items should say:
- *   "Pricing", "About", and "Contact"
- */
-
 function Header() {
   return (
-    <header>
+    <header className="header">
       <img src="./src/react-logo.png" width="40px" alt="React logo" />
       <nav>
-        <ul>
+        <ul className="nav-links">
           <li>Pricing</li>
           <li>About</li>
           <li>Contact</li>
