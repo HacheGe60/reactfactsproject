@@ -4,7 +4,7 @@ const root = createRoot(document.getElementById("root"));
 function Header() {
   return (
     <header className="header">
-      <img src="./src/react-logo.png" width="40px" alt="React logo" />
+      <img src="./src/react-logo.png" alt="React logo" className="react-logo" />
       <nav>
         <ul className="nav-links">
           <li>Pricing</li>
